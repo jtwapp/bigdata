@@ -48,7 +48,7 @@ print('지난 {0}일 동안 전일대비 매출이 감소한 날은 {1}일입니
 ```
 
 <p align="left">
- <img src = "과제2.jpg">
+ <img src = "과제1-2.jpg">
 </p>
 
 ```python
