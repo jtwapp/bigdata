@@ -30,7 +30,7 @@ for i in range(len(result)):
 print("주어진 튜플은 : {}".format(a))
 print("가장 많이 나타나는 원소는: {}".format(max_num))
 ```
-
+# 결과
 <p align="left">
  <img src = "과제1-1.jpg">
 </p>
@@ -46,7 +46,7 @@ for i in range(len(sales) - 1):
 print('일일 매출 기록 : ', sales)
 print('지난 {0}일 동안 전일대비 매출이 감소한 날은 {1}일입니다.'.format(len(sales), drop))
 ```
-
+# 결과
 <p align="left">
  <img src = "과제1-2.jpg">
 </p>
@@ -57,7 +57,7 @@ menu = {"Americano" : 3000, "Ice Americano" : 3500, "Cappucino" : 4000, "Cafe La
 for key in menu:
   print("{:16s}가격 : {:,}원 ".format(key, menu[key]))
 ```
-
+# 결과
 <p align="left">
  <img src = "과제2-1.jpg">
 </p>
@@ -74,7 +74,7 @@ if choice in menu.keys():
 else:
   print("미안합니다. {}는 메뉴에 없습니다".format(choice))
 ```
-
+# 결과
 <p align="left">
  <img src = "과제2-2.jpg">
 </p>
@@ -91,7 +91,7 @@ for s in s_list:
     min_s = s
 print('가장 길이가 짧은 문자열 :', min_s)
 ```
-
+# 결과
 <p align="left">
  <img src = "과제3-1.jpg">
 </p>
@@ -108,7 +108,7 @@ for s in s_list:
     group_list.append(s)
 print("가장 길이가 짧은 문자열 : '{0}', '{1}'', '{2}'".format(group_list[0],group_list[1],group_list[2]))
 ```
-
+# 결과
 <p align="left">
  <img src = "과제3-2.jpg">
 </p>
