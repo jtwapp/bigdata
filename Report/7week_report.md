@@ -1,8 +1,8 @@
 ```python
 # 과제1
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 Path = "http://github.com/dongupak/DataML/raw/main/csv/"
 File = Path + "weather.csv"
@@ -20,7 +20,6 @@ months = np.arange(1, 13)
 plt.bar(months, monthly_wind, color='green')
 plt.xlabel('Month')
 plt.ylabel('Wind')
-plt.show()
 ```
 # 결과
 <p align="left">
